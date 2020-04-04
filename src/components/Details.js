@@ -19,7 +19,7 @@ export default class Details extends Component {
           } = value.detailProduct;
           return (
             <div className="coantiner py-5">
-              {/* titile */}
+              {/* title */}
               <div className="row">
                 <div
                   className="col-10 mx-auto
@@ -46,7 +46,7 @@ export default class Details extends Component {
                       price: <span>$</span>
                       {price}
                     </strong>
-                  </h4>var(--lightBlue); 
+                  </h4>
                   <p className="text-capitalize font-weight-bold mt-3 mb-0">
                     some info about product:
                   </p>
